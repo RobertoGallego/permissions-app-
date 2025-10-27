@@ -2,7 +2,7 @@ import userEvent from '@testing-library/user-event'
 import each from 'jest-each'
 import React from 'react'
 
-import { AppLocale } from '@procsea/common/utils'
+import { AppLocale } from '@common/utils'
 
 import * as useCurrentBuyerCompany from 'src/components/presentationals/buyer-dashboard/shared/hooks/useCurrentBuyerCompany/useCurrentBuyerCompany'
 import { getOrderItemStatusTranslation } from 'src/constants/constants'
